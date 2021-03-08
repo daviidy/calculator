@@ -4,9 +4,12 @@
     "es6": true,
     "jest": true
   },
+  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaFeatures": {
-      "jsx": true
+      "jsx": true,
+      "sourceType": "module",
+      "allowImportExportEverywhere": true
     },
     "ecmaVersion": 2018,
     "sourceType": "module"
@@ -17,7 +20,9 @@
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
     "import/no-unresolved": "off",
     "no-shadow": "off",
-    "arrow-parens": ["error", "as-needed"]
+    "arrow-parens": ["error", "as-needed"],
+    "import/no-named-as-default": 0,
+    "import/no-named-as-default-member": 0
   },
   "ignorePatterns": [
     "dist/",
