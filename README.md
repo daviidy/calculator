@@ -1,6 +1,29 @@
-# Getting Started with Create React App
+# restaurant-page
+In this projet, we are building a calculator with ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project screenshot
+![screenshot](./screenshot.png)
+
+## 🔨 Built in
+
+- ReactJS
+- create-react-app
+
+## 🚀 Our Project
+
+Our project can be found at https://github.com/daviidy/calculator
+
+## Live Demo
+
+You can find the demo [here](https://calculator-daviidy.herokuapp.com/)
+
+## To run the project in local
+
+- make sure you have have NodeJS and NPM installed in your computer
+- clone the repository from here [repo link](https://github.com/daviidy/calculator)
+- navigate in your terminal to the folder `calculator`
+- run `npm install`
+- run `npm start`
 
 ## Available Scripts
 
@@ -35,36 +58,25 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 👨🏽‍💻 👨🏿‍💻 Creators
 
-## Learn More
+👤 **Author1**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Github: [@daviidy](https://github.com/daviidy)
+- Twitter: [@davidyao3](https://twitter.com/DavidYao3)
+- LinkedIn: [@daviidy](https://www.linkedin.com/in/david-yao-6bb95299/)
+- Personal Website: [@daviidy](http://david-yao.com)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contributing
 
-### Code Splitting
+Contributions, issues and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Show your support
 
-### Analyzing the Bundle Size
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📝 License
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is no licensed.
