@@ -2,15 +2,15 @@ import Big from 'big.js';
 
 const operate = (numberOne, numberTwo, operation) => {
   let result = 0;
-  if (operation == '+') {
+  if (operation === '+') {
     result = Big(numberOne + numberTwo);
-  } else if (operation == '-') {
+  } else if (operation === '-') {
     result = Big(numberOne - numberTwo);
-  } else if (operation == '÷') {
+  } else if (operation === '÷') {
     result = Big(numberOne / numberTwo);
-  } else if (operation == 'X') {
+  } else if (operation === 'X') {
     result = Big(numberOne * numberTwo);
-  } else if (operation == '%') {
+  } else if (operation === '%') {
     result = Big(numberTwo / 100);
   }
   return result;

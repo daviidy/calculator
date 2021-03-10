@@ -18,17 +18,10 @@ const calculate = ({
       if (next) {
         data.total = parseNumber(next) * -1;
       }
-      else {
-        return;
-      }
       break;
-
     case '%':
       if (next) {
         data.total = operate(total, parseNumber(next), buttonName);
-      }
-      else {
-        return;
       }
       break;
 
@@ -39,13 +32,9 @@ const calculate = ({
       if (operation && total && next) {
         data.total = operate(total, parseNumber(next), operation);
         data.operation = buttonName;
-      } 
-      else if (!operation && next) {
+      } else if (!operation && next) {
         data.operation = buttonName;
         data.total = parseNumber(next);
-      }
-      else if (!next && !total) {
-        return;
       }
       break;
     case '0':
@@ -69,8 +58,6 @@ const calculate = ({
     default:
       break;
   }
-
-  return data;
 };
 
 export default calculate;
