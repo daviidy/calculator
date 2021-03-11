@@ -1,4 +1,4 @@
-# restaurant-page
+# calculator
 In this projet, we are building a calculator with ReactJS
 
 ## Project screenshot
