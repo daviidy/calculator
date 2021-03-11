@@ -58,6 +58,7 @@ const calculate = ({
     default:
       break;
   }
+  return data;
 };
 
 export default calculate;
