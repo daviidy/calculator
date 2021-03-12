@@ -5,9 +5,13 @@ import PropTypes from 'prop-types';
 
 function Button(props) {
   const { name, clickHandler } = props;
-  const handleClick = name => clickHandler;
+  const handleClick = () => clickHandler(name);
   return (
-    <button onClick={handleClick(name)} type="button">
+    <button
+      className={name === '=' ? 'equal' : ''}
+      onClick={handleClick}
+      type="button"
+    >
       {name}
     </button>
   );

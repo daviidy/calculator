@@ -4,39 +4,36 @@ import PropTypes from 'prop-types';
 import Button from './Button';
 
 function ButtonPanel({ clickHandler }) {
-  const handleClick = buttonName => clickHandler(buttonName);
   return (
-    <>
+    <div className="main">
       <div>
-        <Button clickHandler={handleClick('AC')} name="AC" />
-        <Button clickHandler={handleClick('+/-')} name="+/-" />
-        <Button clickHandler={handleClick('%')} name="%" />
-        <Button clickHandler={handleClick('÷')} name="÷" />
+        <Button clickHandler={clickHandler} name="AC" />
+        <Button clickHandler={clickHandler} name="+/-" />
+        <Button clickHandler={clickHandler} name="%" />
+        <Button clickHandler={clickHandler} name="÷" />
       </div>
       <div>
-        <Button clickHandler={handleClick('7')} name="7" />
-        <Button clickHandler={handleClick('8')} name="8" />
-        <Button clickHandler={handleClick('9')} name="9" />
-        <Button clickHandler={handleClick('X')} name="X" />
+        <Button clickHandler={clickHandler} name="7" />
+        <Button clickHandler={clickHandler} name="8" />
+        <Button clickHandler={clickHandler} name="9" />
+        <Button clickHandler={clickHandler} name="X" />
       </div>
       <div>
-        <Button clickHandler={handleClick('4')} name="4" />
-        <Button clickHandler={handleClick('5')} name="5" />
-        <Button clickHandler={handleClick('6')} name="6" />
-        <Button clickHandler={handleClick('-')} name="-" />
+        <Button clickHandler={clickHandler} name="4" />
+        <Button clickHandler={clickHandler} name="5" />
+        <Button clickHandler={clickHandler} name="6" />
+        <Button clickHandler={clickHandler} name="-" />
       </div>
       <div>
-        <Button clickHandler={handleClick('1')} name="1" />
-        <Button clickHandler={handleClick('2')} name="2" />
-        <Button clickHandler={handleClick('3')} name="3" />
-        <Button clickHandler={handleClick('+')} name="+" />
+        <Button clickHandler={clickHandler} name="1" />
+        <Button clickHandler={clickHandler} name="2" />
+        <Button clickHandler={clickHandler} name="3" />
+        <Button clickHandler={clickHandler} name="+" />
       </div>
-      <div>
-        <Button clickHandler={handleClick('0')} name="0" />
-        <Button clickHandler={handleClick('.')} name="." />
-        <Button clickHandler={handleClick('=')} name="=" />
-      </div>
-    </>
+      <Button clickHandler={clickHandler} name="0" />
+      <Button clickHandler={clickHandler} name="=" />
+      <Button clickHandler={clickHandler} name="." />
+    </div>
 
   );
 }
