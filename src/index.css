@@ -17,10 +17,107 @@ p {
   margin: 0;
   border: 0;
   padding: 0;
-  font: inherit;
   text-align: inherit;
   text-decoration: inherit;
   color: inherit;
   background: transparent;
   list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font: 16px/1.2 "Roboto", sans-serif;
+  color: #333;
+  background: linear-gradient(to right, #f598a8, #f6edb2);
+}
+
+/* button */
+button {
+  width: 50px;
+  height: 50px;
+  color: #486581;
+  font-size: 20px;
+  border: 0;
+  outline: 1px solid snow;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+button:hover,
+button:focus {
+  color: #334e68;
+  background-color: #f0f4f8;
+}
+
+/* container */
+.container {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.container .calculator {
+  width: calc(50px * 4);
+  height: auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  overflow: hidden;
+}
+
+.container .calculator + .calculator {
+  margin-left: 16px;
+}
+
+/* screen */
+.screen {
+  height: auto;
+  padding: 16px 24px;
+  color: white;
+  text-align: right;
+  background-color: #212121;
+}
+
+.screen .cal_formula {
+  color: #ccc;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.screen .cal_total {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* main */
+.main {
+  padding-top: 8px;
+  background-color: white;
+}
+
+.s_flex .main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.s_flex .main .equal {
+  flex-grow: 2;
+}
+
+.s_grid .main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.s_grid .main .equal {
+  grid-column: 2 / 4;
 }
