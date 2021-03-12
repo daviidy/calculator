@@ -13,7 +13,7 @@ const operate = (numberOne, numberTwo, operation) => {
   } else if (operation === 'X') {
     result = x.times(y).toString();
   } else if (operation === '%') {
-    result = Big(numberTwo / numberOne);
+    result = y.div(100).toString();
   } else if (operation === '+/-') {
     result = y.times(-1).toString();
   }

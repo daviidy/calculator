@@ -14,15 +14,20 @@ const calculate = ({
     live,
     reset,
   };
+  if (reset === true) {
+    data.reset = null;
+  }
   switch (buttonName) {
     case 'AC':
       data.next = '';
       data.total = '0';
       data.operation = '';
       data.live = '';
+      data.reset = null;
       break;
 
     case '+/-':
+    case '%':
       if (next) {
         data.total = operate('0', next, buttonName);
       } else if (total) {
@@ -32,13 +37,6 @@ const calculate = ({
       data.operation = '';
       data.next = data.total;
       break;
-    case '%':
-      if (next && operation) {
-        data.total = operate(total, next, buttonName);
-        data.live = data.total;
-      }
-      break;
-
     case '÷':
     case '+':
     case '-':
