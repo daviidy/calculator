@@ -70,11 +70,11 @@ button:focus {
   width: calc(50px * 4);
   height: auto;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
   overflow: hidden;
 }
 
-.container .calculator+.calculator {
+.container .calculator + .calculator {
   margin-left: 16px;
 }
 
