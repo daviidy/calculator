@@ -3,7 +3,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Button from './Button';
 
-function ButtonPanel({ clickHandler }) {
+const ButtonPanel = props => {
+  const { clickHandler } = props;
   return (
     <div className="main">
       <div>
@@ -36,7 +37,7 @@ function ButtonPanel({ clickHandler }) {
     </div>
 
   );
-}
+};
 
 ButtonPanel.propTypes = {
   clickHandler: PropTypes.func.isRequired,

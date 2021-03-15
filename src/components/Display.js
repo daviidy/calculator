@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Display(props) {
+const Display = props => {
   const { result, live } = props;
   return (
     <div className="screen">
@@ -9,7 +9,7 @@ function Display(props) {
       <div className="cal_total">{result}</div>
     </div>
   );
-}
+};
 
 Display.propTypes = {
   result: PropTypes.string,
