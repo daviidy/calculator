@@ -8,7 +8,7 @@ const Button = props => {
   const handleClick = () => clickHandler(name);
   return (
     <button
-      className={name === '=' ? 'equal' : ''}
+      className={name === '=' ? 'equal button' : 'button'}
       onClick={handleClick}
       type="button"
     >

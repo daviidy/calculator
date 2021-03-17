@@ -1,0 +1,113 @@
+/* Global Setting */
+
+.navbar {
+  z-index: 1999;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #4d90cc;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.blue-oschool {
+  color: #4d90cc;
+}
+
+.bg-oschool {
+  background-color: #4d90cc;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3,
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* menu */
+.logo-short,
+.user-avatar {
+  width: 13%;
+}
+
+.logo {
+  width: 50%;
+}
+
+.user-avatar {
+  width: 30px;
+}
+
+.navbar .navbar-nav:nth-child(1) {
+  width: 70%;
+}
+
+i {
+  font-size: 1.5rem;
+}
+
+.dropdown-menu {
+  position: absolute !important;
+  left: auto;
+  right: 0;
+}
+
+/* main */
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #4d90cc;
+  background-color: #fff;
+  border: none;
+  border-bottom: 2px solid #4d90cc;
+  font-weight: bold;
+}
+
+main {
+  height: 100vh;
+}
+
+.event:hover {
+  border: 1px solid #000;
+  box-shadow: 0 10px 20px -4px rgba(0, 0, 0, 0.75);
+}
+
+.event-heading {
+  margin-top: 6rem;
+}
+
+a.bg-white {
+  border: 2px solid #4d90cc;
+}
+
+/* media queries */
+@media screen and (max-width: 599px) {
+  .logo {
+    display: none;
+  }
+}
