@@ -2,7 +2,7 @@ import React from 'react';
 import '../eventbrite.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
-const Home = () => (
+const Quote = () => (
   <>
     <main className="bg-white main">
       <div className="container-fluid pb-5">
@@ -26,4 +26,4 @@ const Home = () => (
   </>
 
 );
-export default Home;
+export default Quote;

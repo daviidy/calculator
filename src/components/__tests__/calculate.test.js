@@ -1,5 +1,3 @@
-import React from 'react';
-import renderer from 'react-test-renderer';
 import calculate from '../../logic/calculate';
 
 describe('Calculate', () => {
