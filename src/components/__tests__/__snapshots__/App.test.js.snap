@@ -12,9 +12,11 @@ exports[`renders correctly 1`] = `
     >
       <div
         className="cal_formula"
+        role="cal_formula"
       />
       <div
         className="cal_total"
+        role="cal_total"
       />
     </div>
     <div
